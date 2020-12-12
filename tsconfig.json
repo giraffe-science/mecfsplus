@@ -9,7 +9,7 @@
       "es2019.array",
       "es2020.string"
     ],
-    "module": "commonjs",
+    "module": "esnext",
     "experimentalDecorators": true,
     "strict": true,
     "noUnusedLocals": true,
