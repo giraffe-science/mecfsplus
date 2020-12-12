@@ -1,3 +1,4 @@
+import {FetchHandler} from "@http4t/browser/fetch";
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -6,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App http={new FetchHandler()}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
